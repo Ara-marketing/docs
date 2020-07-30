@@ -31,7 +31,7 @@ header{
     flex-wrap: nowrap;
     justify-content: space-between;
 }
-iframe{
+video{
     border:none;
     background-color:#ccc;
     display:none;
