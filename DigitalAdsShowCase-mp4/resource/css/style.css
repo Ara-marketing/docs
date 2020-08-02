@@ -78,9 +78,13 @@ color: #fff;
     margin-left:20px;
 }
 .snap{
-    width:960px;
-    height:600px;
-    background-image:url(resource/image/snapchat.png);
+    width:350px;
+    height:707px;
+    background-image:url(../images/snapchat.png);
     background-size:100%;
+    margin:20px auto;
+}
+.bannersnap{
+    margin:84px 0 0 24px;
 }
 
