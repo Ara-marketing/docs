@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ara Digital Ads Showcase</title>
+        <link rel="stylesheet" href="resource/css/style.css">
+        <script src="resource/js/jquery.min.js"></script>
+        <script src="resource/js/function.js"></script>
+    </head>
+    <Body>
+        <header>
+            <div class="left-container"></div>
+            <div class="inner-container"><img src="resource/images/logo.jpg" alt="logo"></div>
+            <div class="right-container"></div>
+        </header>
+        <div class="container">
+            <!--left ad block-->
+            <div class="left-container">
+                <!--160x600 ad banner-->
+                <video class="banner160x600" width="160" height="600" autoplay muted>
+                    <source src="https://github.com/Ara-marketing/docs/raw/master/DigitalAdsShowCase-mp4/ads/160X600/banner.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+            </div>
+
+            <!--body content block-->
+            <div class="inner-container center">
+                <!--navigation placeholder-->
+                <img src="resource/images/nav.jpg" alt="ph">
+
+                <!--big text blocks placeholder-->
+                <div class="flex">
+                    <div class="placeholder fifty">
+                        <img src="resource/images/placeholder.jpg" alt="ph">
+                    </div>
+                    <div class="placeholder fifty">
+                        <img src="resource/images/placeholder.jpg" alt="ph">
+                    </div>
+                </div>
+
+                <!--728x90 ad banner-->
+                <video class="banner728x90" width="728" height="90" autoplay muted>
+                    <source src="https://github.com/Ara-marketing/docs/raw/master/DigitalAdsShowCase-mp4/ads/728X90/banner.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+                
+                <!--320x50 ad banner-->
+                <video class="banner320x50" width="320" height="50" autoplay muted>
+                    <source src="https://github.com/Ara-marketing/docs/raw/master/DigitalAdsShowCase-mp4/ads/320X50/banner.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+                
+                <!--small text blocks placeholder-->
+                <div class="flex">
+                    <div class="placeholder twenty-five">
+                        <img src="resource/images/placeholder.jpg" alt="ph">
+                    </div>
+                    <div class="placeholder twenty-five">
+                        <img src="resource/images/placeholder.jpg" alt="ph">
+                    </div>
+                    <div class="placeholder twenty-five">
+                        <img src="resource/images/placeholder.jpg" alt="ph">
+                    </div>
+                    <div class="placeholder twenty-five">
+                        <img src="resource/images/placeholder.jpg" alt="ph">
+                    </div>
+                </div>
+
+                
+                <div class="flex">
+                    <!--grid text blocks placeholder-->
+                    <div class="fifty">
+                        <div class="flex">
+                            <div class="placeholder fifty">
+                                <img src="resource/images/placeholder.jpg" alt="ph">
+                            </div>
+                            <div class="placeholder fifty">
+                                <img src="resource/images/placeholder.jpg" alt="ph">
+                            </div>
+                        </div>
+                        <div class="placeholder full">
+                            <img src="resource/images/placeholder.jpg" alt="ph">
+                        </div>
+                    </div>
+
+                    <!--320x480 ad banner-->
+                    <div class="fifty">
+                        <!--<iframe class="banner320x480" style="width:320px;height:480px;" src="ads/320X480/index.html"></iframe>-->
+                        <video class="banner320x480" width="320" height="480" autoplay muted>
+                            <source src="https://github.com/Ara-marketing/docs/raw/master/DigitalAdsShowCase-mp4/ads/320X480/banner.mp4" type="video/mp4">
+                          Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+            </div>
+
+            <!--right ads block-->
+            <div class="right-container">
+                <!--300x250 ad banner-->
+                <video class="banner300x250" width="300" height="250" autoplay muted>
+                    <source src="https://github.com/Ara-marketing/docs/raw/master/DigitalAdsShowCase-mp4/ads/300X250/banner.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+                
+                <!--300x600 ad banner -->
+                <video class="banner300x600" width="300" height="600" autoplay muted>
+                    <source src="https://github.com/Ara-marketing/docs/raw/master/DigitalAdsShowCase-mp4/ads/300X600/banner.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+            </div>
+        </div> 
+        <footer></footer>
+        <div id="dashboard">
+            <div id="dashboardheader">Settings</div>
+            <div class="checkbox">
+                <input type="checkbox" id="160x600" name="160x600" value="160x600">
+                <label for="160x600">160 x 600</label>
+                <button type="button" onclick="refresh('banner160x600')">Replay</button>
+            </div>
+            <div class="checkbox">
+                <input type="checkbox" id="728x90" name="728x90" value="728x90">
+                <label for="728x90">728 x 90</label>
+                <button type="button" onclick="refresh('banner728x90')">Replay</button>
+            </div>
+            <div class="checkbox">
+                <input type="checkbox" id="320x50" name="320x50" value="320x50">
+                <label for="320x50">320 x 50</label>
+                <button type="button" onclick="refresh('banner320x50')">Replay</button>
+            </div>
+            <div class="checkbox">
+                <input type="checkbox" id="300x250" name="300x250" value="300x250">
+                <label for="300x250">300 x 250</label>
+                <button type="button" onclick="refresh('banner300x250')">Replay</button>
+            </div>
+            <div class="checkbox">
+                <input type="checkbox" id="300x600" name="300x600" value="300x600">
+                <label for="300x600">300 x 600</label>
+                <button type="button" onclick="refresh('banner300x600')">Replay</button>
+            </div>
+            <div class="checkbox">
+                <input type="checkbox" id="320x480" name="320x480" value="320x480">
+                <label for="320x480">320 x 480</label>
+                <button type="button" onclick="refresh('banner320x480')">Replay</button>
+            </div>
+            <div class="checkbox">
+                <a href="https://htmlpreview.github.io/?https://github.com/Ara-marketing/docs/blob/master/DigitalAdsShowCase-mp4/index-mobile.html">SnapChat</a>
+            </div>
+        </div>
+    </Body>
+</html>
